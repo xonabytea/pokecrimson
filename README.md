@@ -1,10 +1,13 @@
 # pokefirered-expansion
+based of pokefirered-expansion by cawtds
+Romhack of Pokemon FireRed
 
-To set up the repository, see [INSTALL.md](https://github.com/rh-hideout/pokeemerald-expansion/blob/upcoming/INSTALL.md).
-# Branches
-- master - pokefirered with expansion features
-- no-ql-and-hs - master without quest log and help system
-- dppt-hgss-music - based on master, adds DPPt and HGSS music
+Features:
+ Expanded Pokedex with most pokemon up to Gen 9 in plans
+ Completely new region available after the Kanto E4
+ Battle 
 # Credits
-[rh-hideout/pokeemerald-expansion](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits)  
-[Sotomura/pokefirered-rtc](https://github.com/Sotomura/pokefirered/tree/pokefirered-rtc)
+[Pokefirered Expansion](https://github.com/cawtds/pokefirered-expansion)
+#Building
+To compile room, see [INSTALL.md](https://github.com/rh-hideout/pokeemerald-expansion/blob/upcoming/INSTALL.md).
+#looking for help!
