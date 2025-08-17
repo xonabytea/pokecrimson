@@ -10,4 +10,5 @@ Features:
 [Pokefirered Expansion](https://github.com/cawtds/pokefirered-expansion)
 #Building
 To compile room, see [INSTALL.md](https://github.com/rh-hideout/pokeemerald-expansion/blob/upcoming/INSTALL.md).
-#looking for help!
+# looking for help!
+msg me if you want to contribute
