@@ -152,16 +152,6 @@ EventScript_SeviiDestinationsPage2::
 	case SEAGALLOP_FIVE_ISLAND,  EventScript_SailToFiveIsland
 	case SEAGALLOP_SIX_ISLAND,   EventScript_SailToSixIsland
 	case SEAGALLOP_SEVEN_ISLAND, EventScript_SailToSevenIsland
-	case SEAGALLOP_MORE,         EventScript_SeviiDestinationsPage3
-	case SCR_MENU_CANCEL,        EventScript_CancelSail
-	end
-EventScript_SeviiDestinationsPage3::
-	setvar VAR_0x8005, 1
-	special DrawSeagallopDestinationMenu
-	waitstate
-	specialvar VAR_0x8006, GetSelectedSeagallopDestination
-	switch VAR_0x8006
-	case SEAGALLOP_IGNIVO,  	 EventScript_SailToNivaTown
 	case SEAGALLOP_MORE,         EventScript_SeviiDestinationsPage1
 	case SCR_MENU_CANCEL,        EventScript_CancelSail
 	end
@@ -202,11 +192,6 @@ EventScript_SailToSixIsland::
 	end
 
 EventScript_SailToSevenIsland::
-	setvar VAR_0x8006, SEAGALLOP_SEVEN_ISLAND
-	goto EventScript_SailToDest
-	end
-
-EventScript_SailToNiva::
 	setvar VAR_0x8006, SEAGALLOP_SEVEN_ISLAND
 	goto EventScript_SailToDest
 	end
